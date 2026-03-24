@@ -1,10 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS Exercises</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-$END$
+<body class="bg-gray-50 text-gray-900">
+<div class="max-w-5xl mx-auto p-10 space-y-20">
+    <h1 class="text-center text-5xl font-extrabold text-blue-600">Tailwind Practice</h1>
+
+    <!-- Exercise 1 -->
+    <section id="ex-1">
+        <h2 class="text-2xl font-bold mb-4">1. Typography & Spacing</h2>
+        <h1 class="text-4xl font-bold mb-4">Tailwind Practice</h1>
+        <h2 class="text-xl font-semibold mb-4">Övningar</h2>
+
+        <div class="space-y-4">
+            <p class="leading-relaxed">
+                Test osv
+            </p>
+            <p class="leading-relaxed">
+                testa
+            </p>
+        </div>
+    </section>
+
+<!-- Exercise 2-->
+    <div class="space-y-4">
+        <div class="p-4 border border-green-600 bg-green-100 text-green-800 rounded-lg">
+            <span class="font-bold">Success:</span> Operation completed successfully.
+        </div>
+
+        <div class="p-4 border border-yellow-500 bg-yellow-100 text-yellow-800 rounded-lg">
+            <span class="font-bold">Warning:</span> Please double-check your settings.
+        </div>
+
+        <div class="p-4 border border-red-600 bg-red-100 text-red-800 rounded-lg">
+            <span class="font-bold">Danger:</span> Something went wrong.
+        </div>
+    </div>
+    <!-- Exercise 3-->
+    <div class="max-w-sm mx-auto bg-white shadow-md rounded-xl p-6 space-y-4">
+        <h3 class="text-2xl font-bold">Card Title</h3>
+        <p class="text-gray-600">This is a short description inside the card.</p>
+        <button class="bg-blue-600 text-white px-4 py-2 rounded-lg">
+            Read More
+        </button>
+    </div>
+    <!-- Exercise 4-->
+    <div class="flex items-center gap-4">
+        <img src="https://scontent.fbma5-1.fna.fbcdn.net/v/t39.30808-6/337261366_9291231900919358_3072044170530304999_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=XbnWJ3d8z7QQ7kNvwE4uJry&_nc_oc=Ado5DwgebRLtRAhQ0CldD-_pvUTNGSc31Mt1wCS76YYUcmsWsN4nsrASWro8bDIU0Ro&_nc_zt=23&_nc_ht=scontent.fbma5-1.fna&_nc_gid=BwTmJPPeWDby3G_huuK09w&_nc_ss=7a32e&oh=00_AfzUMIZ8FGPyE88LpPgK_rHasNKe0g-4HK6IDHykDYWmew&oe=69C846C8"
+             class="w-12 h-12 rounded-full object-cover" />
+        <div>
+            <h4 class="font-bold">Andreas Karlsson</h4>
+            <p class="text-gray-600 text-sm">Software Engineer</p>
+        </div>
+    </div>
+
+    <!-- Exercise 5-->
+    <div class="flex gap-4">
+        <button class="bg-blue-600 text-white px-4 py-2 rounded-lg
+                 hover:bg-blue-700 transition-colors duration-300
+                 focus:ring-2 focus:ring-blue-400">
+            Primary
+        </button>
+
+        <button class="bg-gray-200 text-gray-800 px-4 py-2 rounded-lg
+                 hover:bg-gray-300 transition-colors duration-300
+                 focus:ring-2 focus:ring-gray-400">
+            Secondary
+        </button>
+
+        <button class="border border-gray-600 text-gray-800 px-4 py-2 rounded-lg
+                 hover:bg-gray-100 transition-colors duration-300
+                 focus:ring-2 focus:ring-gray-400">
+            Outline
+        </button>
+    </div>
+    <!-- Exercise 6-->
+
+
+</div>
 </body>
 </html>
